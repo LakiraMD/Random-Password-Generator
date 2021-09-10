@@ -12,15 +12,27 @@
 		<h1 class="text-center bg-success title">Password Genarator</h1>
 	</div>	
 	<div class='container'>
-		<h5>Numbers</h5>
 		<input type="checkbox" class="form-check-input" id="noBtn" value="off">
-		<h5>LowerCases</h5>
+		<label class="form-check-label" for="gridCheck">
+        Numbers
+      	</label><br>
+		
 		<input type="checkbox" class="form-check-input" id="lowBtn">
-		<h5>UpperCases</h5>
+		<label class="form-check-label" for="gridCheck">
+        Lowercase
+      	</label><br>
+		
 		<input type="checkbox" class="form-check-input" id="upBtn">
-		<h5>Symbols</h5>
+		<label class="form-check-label" for="gridCheck">
+        Uppercase</label><br>
 		<input type="checkbox" class="form-check-input" id="symBtn">
-		<input type="range" class="form-range" id="range" min="4" max="30" value="8">
+		<label class="form-check-label" for="gridCheck">
+        Symbols
+      	</label><br>
+		<input type="number" class="custom-input" id="range" min="4" max="30"value='8'>
+		<label class="form-check-label" for="gridCheck">
+        Length
+      	</label><br>
 	</div>
 	<div class="container">
 		<h1 class="pad border border-dark margin" id="password">Your Password</h1>
